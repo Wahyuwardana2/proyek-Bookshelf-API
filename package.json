@@ -1,0 +1,21 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Tugas Submision Dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Wahyu Wardana",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
